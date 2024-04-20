@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "@sidebase/nuxt-pdf"
   ],
+  ssr: false,
   nitro: {
     runtimeConfig: {
       dbUrl: process.env.DB_URL,
